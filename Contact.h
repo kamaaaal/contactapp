@@ -43,9 +43,9 @@ public:
     }
     void contactDetails()
     {
-        cout << this->name << endl;
-        cout << this->number << endl;
-        cout << this->email << endl;
+        cout << "Name  : " << this->name << endl;
+        cout << "Number: " << this->number << endl;
+        cout << "Email : " << this->email << endl;
     }
     void editContact()
     {
